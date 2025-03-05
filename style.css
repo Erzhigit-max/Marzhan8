@@ -1,0 +1,55 @@
+/* Негізгі дизайн */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+  }
+  
+  /* Батырма стилі */
+  #pressButton {
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff69b4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #pressButton:hover {
+    background-color: #ff1493;
+  }
+  
+  /* Құттықтау хабарламасының стилі */
+  #congratulations {
+    display: none;
+    text-align: center;
+    color: #ff1493;
+    padding: 20px;
+  }
+  
+  #congratulations h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #congratulations p {
+    font-size: 20px;
+  }
+  
+  #namesList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  #namesList li {
+    font-size: 24px;
+    margin: 5px 0;
+  }
